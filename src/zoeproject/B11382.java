@@ -13,6 +13,7 @@ public class B11382 {
 		
 		System.out.println(a+b+c);
 		
+		
 	}
 
 }
