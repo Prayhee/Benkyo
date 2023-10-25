@@ -8,12 +8,13 @@ package javaTest;
 public class P120830 {
 
 	public static void main(String[] args) {
-		// n은 양꼬치 / k는 음료수
-		int n, k, answer;
-		if(n/10) {
-			answer-k
+		class Solution {
+		    public int solution(int n, int k) {
+		        int answer = 0;
+				answer = (n*12000)+(k*2000)-(n/10)*2000;
+		        
+		        return answer;
+		    }
 		}
-		n + k = answer;
 	}
-
 }
