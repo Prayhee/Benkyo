@@ -12,10 +12,10 @@ public class P120847 {
 			for (int i = 0; i < numbers.length; i++) {
 				if (numbers[i] >= num1) {
 					num1 = numbers[i];
-				}else if(numbers[i] >= num2){
-					num2 = numbers[i];
-				}
-			}
+				}else if(numbers[i] >= num2) {
+                    num2 = numbers[i];
+                }
+            }
 			answer = num1 * num2;
 			return answer;
 
