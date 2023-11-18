@@ -6,15 +6,15 @@ public class P120818 {
 	class Solution {
 		public int solution(int price) {
 			int answer = 0;
-			int sale = 0;
 			if (price >= 500000) {
-				sale = 20;
+				answer = (int) (price-(price*0.2));
 			} else if (price >= 300000) {
-				sale = 10;
+				answer = (int) (price-(price*0.1));
 			} else if (price >= 100000) {
-				sale = 5;
-			} else
-			answer = answer / sale;
+				answer = (int) (price-(price*0.05));
+			} else {
+				answer = price;
+			}
 			return answer;
 		}
 	}
