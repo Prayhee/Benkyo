@@ -1,4 +1,4 @@
-package javaTest;
+package javaTestProgrammers;
 
 /*머쓱이네 피자가게는 피자를 일곱 조각으로 잘라 줍니다.
  * 피자를 나눠먹을 사람의 수 n이 주어질 때,
